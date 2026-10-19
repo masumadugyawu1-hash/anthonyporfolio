@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Anthony – Bot Developer & Roblox Designer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,800&family=Instrument+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  
+.site-footer {
+  padding: 1.5rem 0 2rem;
+  color: var(--muted);
+  font-size: .9rem;
+  border-top: 1px solid var(--line);
+}
+
+.footer-tagline {
+  margin: 0 0 1rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.footer-links a {
+  color: inherit;
+  text-decoration: none;
+  transition: color .2s;
+}
+
+.footer-links a:hover {
+  color: var(--accent);
+}
+
+.site-footer p:last-child {
+  margin-bottom: 0;
+}
+
+:root{
+  --bg:#e8edf2; --ink:#10203a; --muted:#52627a; --line:#c3cedb; --accent:#2f4bff; --accent-ink:#ffffff;
+  --display:"Bricolage Grotesque","Helvetica Neue",Arial,sans-serif;
+  --body:"Instrument Sans","Helvetica Neue",Arial,sans-serif;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){--bg:#0e1626;--ink:#e6ecf6;--muted:#93a3bb;--line:#26344d;--accent:#7f93ff;--accent-ink:#0e1626}
+}
+:root[data-theme="dark"]{--bg:#0e1626;--ink:#e6ecf6;--muted:#93a3bb;--line:#26344d;--accent:#7f93ff;--accent-ink:#0e1626}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.6 var(--body)}
+a{color:inherit}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.wrap{max-width:68rem;margin:0 auto;padding:0 1.5rem}
+nav{display:flex;justify-content:space-between;padding:1.5rem 0;font-weight:500}
+nav a{text-decoration:none;margin-left:1.5rem}
+nav a:first-child{margin-left:0}
+nav a:hover{color:var(--accent)}
+.hero{padding:4rem 0 5rem}
+h1{font:800 clamp(4.5rem,21vw,15rem)/.82 var(--display);letter-spacing:-.045em;margin:0 0 2rem;overflow-wrap:anywhere}
+.hero p{max-width:34rem;font-size:1.3rem;color:var(--muted);margin:0}
+.hero p strong{color:var(--ink);font-weight:500}
+h2{font:800 2rem/1.1 var(--display);letter-spacing:-.02em;margin:0 0 2rem}
+section{padding:3.5rem 0;border-top:1px solid var(--line)}
+.work a{display:grid;grid-template-columns:1fr auto;gap:.25rem 2rem;padding:1.5rem 0;border-bottom:1px solid var(--line);text-decoration:none;transition:padding .2s}
+.work a:first-child{padding-top:0}
+.work a:hover{padding-left:1rem;color:var(--accent)}
+.work h3{font:800 clamp(1.5rem,4vw,2.4rem)/1.1 var(--display);letter-spacing:-.02em;margin:0}
+.work span{color:var(--muted);align-self:end}
+.work p{grid-column:1/-1;margin:0;color:var(--muted);max-width:38rem}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:3rem}
+.about p{margin:0 0 1rem;max-width:34rem}
+.skills{list-style:none;margin:0;padding:0}
+.skills li{padding:.6rem 0;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:1rem}
+.skills li span{color:var(--muted)}
+.contact{padding-bottom:5rem}
+.contact a.big{display:inline-block;font:800 clamp(1.6rem,6vw,3.4rem)/1.1 var(--display);letter-spacing:-.03em;text-decoration:none;background:var(--accent);color:var(--accent-ink);padding:1rem 1.6rem;border-radius:.4rem}
+.contact a.big:hover{filter:brightness(1.1)}
+.contact p{color:var(--muted);margin:1.5rem 0 0}
+footer{padding:1.5rem 0 2rem;color:var(--muted);font-size:.9rem}
+@media (max-width:700px){.about{grid-template-columns:1fr;gap:2rem}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav aria-label="Main"><div>Porfolio</div><div><a href="#work">Work</a><a href="#about">About</a><a href="#contact">Contact</a></div></nav>
+
+  <header class="hero">
+    <h1>Anthony</h1>
+    <p><strong>I create Discord and Yapper bots</strong> and design Roblox shirts. Open to custom bot and clothing commissions.</p>
+  </header>
+
+  <section id="work" class="work">
+    <h2>Selected work</h2>
+    <a href="#contact"><h3>Welcomer Lite</h3><span>Yapper bot</span><p>The bot I built together with My friend Carl. 👋 Welcomer Lite — Automatically welcome new members and make everyone feel at home! 🎉.</p></a>
+    <a href="#contact"><h3>Highlight bot</h3><span>Yapper bot</span><p>A custom bot for Yapper. ⭐ Highlight Bot — Star your favorite messages and automatically showcase the best ones on a dedicated highlight board! ✨.</p></a>
+    <a href="#contact"><h3>Roblox shirts</h3><span>Clothing</span><p>Original shirt designs for Roblox.</p></a>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <div class="about">
+      <div>
+        <p>I'm Anthony. I build Discord and Yapper bots and make Roblox shirts.</p>
+        <p>Whether it's a bot for your server or a shirt for your avatar, I take it from idea to finished product.</p>
+      </div>
+      <ul class="skills">
+        <li>Discord bots <span>Commands, moderation, tools</span></li>
+        <li>Yapper bots <span>Custom features</span></li>
+        <li>Roblox shirts <span>Design and upload</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Work with me</h2>
+    <a class="big" href="mailto:masumadugyawu1@gmail.com">masumadugyawu1@gmail.com</a>
+    <p>Want a custom bot or shirt? Send me the details.</p>
+  </section>
+
+ 
+<footer class="site-footer">
+  <p class="footer-tagline">Making things for communities and creators.</p>
+
+  <div class="footer-links">
+    <a href="https://www.roblox.com/users/7422054933/profile"
+       target="_blank" rel="noopener noreferrer">Roblox</a>
+
+    <a href="https://github.com/masumadugyawu1-hash"
+       target="_blank" rel="noopener noreferrer">GitHub</a>
+
+    <a href="https://www.youtube.com/@heisanthony"
+       target="_blank" rel="noopener noreferrer">YouTube</a>
+  </div>
+
+  <p>© 2026 Anthony. All rights reserved.</p>
+</footer>
+
+</div>
+</body>
+</html>
